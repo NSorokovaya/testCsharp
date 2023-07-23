@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" culture="en-US">
+<head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta name="fontiran.com:license" content="LAXSN" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Creatio
+</title>
+	<style>
+		.font-preload {
+			position: absolute;
+			opacity: 0;
+		}
+		.font-preload-open-sans {
+			font-family: "Bpmonline Open Sans";
+		}
+		.font-preload-open-sans-light {
+			font-family: "Bpmonline Open Sans Light";
+		}
+		.font-preload-open-sans-bold {
+			font-family: "Bpmonline Open Sans Bold";
+		}
+	</style>
+<script type="text/javascript">
+Terrasoft = window.Terrasoft || {};
+Terrasoft.appFramework = "NETFRAMEWORK";
+Terrasoft.coreVersion = "8.0.8.4807";
+Terrasoft.useClientPerformanceLogger = false;
+Terrasoft.configuration = Terrasoft.configuration || {};
+Terrasoft.configuration.Structures = Terrasoft.configuration.Structures || {};
+Terrasoft.useParallelSchemaBuilding = true;
+Terrasoft.showSessionEndNotification = false;
+Terrasoft.useWebSocketKeepAlive = true;
+Terrasoft.useStaticFileContent = true;
+Terrasoft.usePackageFileContent = true;
+Terrasoft.useGenerateModulePathes = true;
+Terrasoft.useNewRightsManagement = true;
+Terrasoft.useOffsetFetchPaging = false;
+Terrasoft.useMarkerValue = true;
+Terrasoft.enablePerformanceManager = false;
+Terrasoft.useSecureSettingsOnClient = false;
+Terrasoft.useSchemaUniqueNameRandomGenerator = true;
+Terrasoft.disableAspxErrorPage = true;
+Terrasoft.useAsyncStaticContentGeneration = true;
+var FileAPI = {
+	staticPath: "https://01195748-5-demo.creatio.com//Resources/ui/FileAPI/",
+	flashUrl: "https://01195748-5-demo.creatio.com//Resources/ui/FileAPI/FileAPI.flash.swf",
+	flashImageUrl: "https://01195748-5-demo.creatio.com//Resources/ui/FileAPI/FileAPI.flash.image.swf" };
+Terrasoft.storesConfig = [];
+Terrasoft.storesConfig.push({levelName: 'ClientPageSession', type: 'Terrasoft.MemoryStore', isCache: true});
+Terrasoft.storesConfig.push({levelName: 'Domain', type: 'Terrasoft.LocalStore', isCache: true});
+if(Terrasoft.StoreManager){
+	Terrasoft.StoreManager.registerStores(Terrasoft.storesConfig);
+}
+Terrasoft.loaderBaseUrl = "https://01195748-5-demo.creatio.com/";
+Terrasoft.workspaceBaseUrl = "https://01195748-5-demo.creatio.com/";
+Terrasoft.coreModulesPath = 'core/hash/';Terrasoft.app = Terrasoft.app || {};
+Terrasoft.app.config = Terrasoft.app.config || {};
+Terrasoft.app.config.staticFileContent = Terrasoft.app.config.staticFileContent || {};
+Terrasoft.app.config.staticFileContent.imagesRuntimePath = 'conf/content/img';
+Terrasoft.app.config.staticFileContent.schemasRuntimePath = 'conf/content';
+Terrasoft.app.config.staticFileContent.resourcesRuntimePath = 'conf/content/resources';
+
+
+Terrasoft.showSelfRegistrationLink = true;</script>
+<script type="text/javascript">
+window.workspaceCount = 0;
+window.supportInfo = [];
+window.supportInfoCaption = 'Technical support';
+window.importantLinks = [];
+window.importantLinksCaption = 'Important links';
+window.productVersion = '8.0.8.4807';
+window.loginTimeout = '30000';
+var Terrasoft = Terrasoft || {};
+window.isNtlmLoginVisible = false;
+
+window.isOpenIdLoginVisible = false;
+window.loginPageWidgetInfo = {visible: true, src: 'https://www.bpmonline.com/page/creatio/widget', sandboxAttributes: 'allow-popups allow-popups-to-escape-sandbox'}
+window.unsupportedBrowserInfo = { visible: true }
+window.loginImageUrl = '/terrasoft.axd?s=nui-binary-syssetting&r=LogoImage&source_hash=3f3add42130b96a16ca5bf87992e487e';
+window.productVersion = '8.0.8.4807';
+</script>
+<script type="text/javascript" src="https://01195748-5-demo.creatio.com//core-sl/b148ea3c7e5ccc0c321d82cab3535563/Terrasoft.Nui"></script>
+<script type="text/javascript">
+Terrasoft.loginUrl = 'https://01195748-5-demo.creatio.com/ServiceModel/AuthService.svc/Login';
+Terrasoft.ntlmLoginUrl = 'https://01195748-5-demo.creatio.com/Login/NuiLogin.aspx?ntlmlogin';
+Terrasoft.changePasswordUrl = 'https://01195748-5-demo.creatio.com/ServiceModel/AuthService.svc/DoChangePasswordLogin';
+Terrasoft.simpleLoginTag = "simplelogin";
+Terrasoft.openIdRootUrl = "";
+Terrasoft.loginModulePath = 'https://01195748-5-demo.creatio.com//core/1033fe98fb11bea69fc027ece46cf0b3/Terrasoft/amd/';
+Terrasoft.BaseViewModulePath= "Nui/ViewModule.aspx";
+</script>
+<script type="text/javascript" src="https://01195748-5-demo.creatio.com//core/db7fe0930e6258f01fb73405039cc9a5/normalize/classList-shim.js"></script>
+<script type="text/javascript" src="https://01195748-5-demo.creatio.com//core/a2de79ad7a40d8fc81723c5ec4924f64/normalize/pathSeg-polyfill.js"></script>
+<script type="text/javascript">
+Terrasoft.configurationContentHash = "02e49d571d32428699c747d8b103a6a6";
+Terrasoft.fileContentDescriptorsFileExists = true;
+Terrasoft.fileContentBootstrapsFileExists = true;
+Terrasoft.currentUserCultureName = "en-US";
+</script>
+<link href="../terrasoft.axd?s=nui-binary-syssetting&r=FaviconImage&source_hash=708417b559edf5f5a5107c9b1b0ad6c2" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<script type="text/javascript" src="https://01195748-5-demo.creatio.com//core/6b8b5f3104aae07797c53f2e67870419/combined/all-combined.js"></script>
+<link rel="stylesheet" type="text/css" href="https://01195748-5-demo.creatio.com//core/a857c253d45f6c4a09d748fab0d0fbc7/combined/all-combined.css" />
+<script type="text/javascript" src="https://01195748-5-demo.creatio.com//core/057665f97324038f6c7c326b6734de6b/requirejs/require.js"></script>
+<script type="text/javascript">
+requirejs.config({
+	'paths': {
+		'require-config': 'https://01195748-5-demo.creatio.com//core/c3b382519da9b15e207de6d13b5f07b1/Terrasoft/amd/require-config',
+		'require-url-config': 'https://01195748-5-demo.creatio.com//core/967b00f40245f346c0fb1e09d597be51/Terrasoft/amd/require-url-config',
+		'core-base': 'https://01195748-5-demo.creatio.com//core/a124d3763cf4e4169ba690dd9234799a/Terrasoft/amd/core-base',
+		'bootstrap': 'https://01195748-5-demo.creatio.com//core/8979640ca97555545b1399a7fdfe4a92/Terrasoft/amd/bootstrap',
+		'performanceLogger': 'https://01195748-5-demo.creatio.com//core/cf23c4ee65b1c47840a78249f048d9e1/Terrasoft/amd/performanceLogger',
+		'performancecountermanager': 'https://01195748-5-demo.creatio.com//core/e79de66acd39442acc1377a3c1710862/Terrasoft/amd/performancecountermanager',
+		'crtrxjs': 'https://01195748-5-demo.creatio.com//core/614ea36a58baec76f4c97fb369055015/Terrasoft/amd/crtrxjs',
+		'process-designer-component': 'https://01195748-5-demo.creatio.com//core/a9b433fcdeee1945cd7ccbe9c88d7a92/Terrasoft/designers/process-designer-component/main',
+		'voice-to-text-component': 'https://01195748-5-demo.creatio.com//core/84e9a1bbc465afe57f18b198a381192f/Terrasoft/controls/mixins/voice-to-text-button/main',
+		'jQuery': 'https://01195748-5-demo.creatio.com//core/f7072c6fb890cf46ab0e415e1c5edc0b/jQuery/jQuery-3.5.1',
+		'ckeditor-base': 'https://01195748-5-demo.creatio.com//core/7267b81c405fb80f522ad104c77e6552/CKEditor/ckeditor',
+		'html2canvas': 'https://01195748-5-demo.creatio.com//core/33d055f3b420b12b4b9d58c398797018/html2canvas/html2canvas',
+		'login-view-utils': 'https://01195748-5-demo.creatio.com//core/dac89c851a756ef023c909a162fe1bd0/Terrasoft/amd/login-view-utils',
+		'login-model-utils': 'https://01195748-5-demo.creatio.com//core/e2124f5f11fabbf7d0fc368b3cad3100/Terrasoft/amd/login-model-utils',
+		'ssoutils': 'https://01195748-5-demo.creatio.com//core/0d233a21a7fa79dd2a0ab8600dbcbe83/Terrasoft/utils/sso/ssoutils',
+		'open-id-start-sso-client-provider': 'https://01195748-5-demo.creatio.com//core/02f1480f14997f4690a0341e2174bf69/Terrasoft/utils/sso/providers/open-id-start-sso-client-provider',
+		'saml-start-sso-client-provider': 'https://01195748-5-demo.creatio.com//core/ede385c43d49fe367b63059e25832a7a/Terrasoft/utils/sso/providers/saml-start-sso-client-provider',
+		'configuration-loader': 'https://01195748-5-demo.creatio.com//core/bd2cdaae95acb46c37c158ef711c0e37/Terrasoft/amd/configuration-loader',
+		'configuration-bootstraps': 'https://01195748-5-demo.creatio.com//core/0b716942a363fd530c825a6916ea3ebb/Terrasoft/amd/configuration-bootstraps',
+		'loadbootstrap': 'https://01195748-5-demo.creatio.com//core/3fb9c04ef8bceec5fb32beae806d21be/Terrasoft/amd/bootstrap.login',
+		'chartjs': 'https://01195748-5-demo.creatio.com//core/1cace45abf11f3a72c5bbb52e85c7128/ng-core/src/chartjs',
+		'chartjs-label': 'https://01195748-5-demo.creatio.com//core/0465154f993989d21ccc58b60b5eff82/Chartjs/chartjs-plugin-labels',
+		'chartjs-defaults': 'https://01195748-5-demo.creatio.com//core/f5dcdb1296b21c01cb66773578fcdbdb/Chartjs/chartjs-defaults',
+		'chartjs-funnel': 'https://01195748-5-demo.creatio.com//core/c609f818db8a8249c2df8e0ae9b59891/ng-core/src/chartjs-funnel-plugin',
+		'chartjs-gauge': 'https://01195748-5-demo.creatio.com//core/5fce85e1a427c4d54cd7b9291799ce9c/Chartjs/Gauge',
+		'user-agent': 'https://01195748-5-demo.creatio.com//core/065fe8838c81076941a5cc6e7150ff2e/Terrasoft/utils/user-agent',
+		'user-agent-parser': 'https://01195748-5-demo.creatio.com//core/cd1bb97bb36c057a7be745a17b1a33a5/user-agent-parser/user-agent-parser.min',
+		'ng-core': 'https://01195748-5-demo.creatio.com//core/a27699c5527ffb56e33e35ceeeb13d9c/ng-core/src/main',
+		'ng-scripts': 'https://01195748-5-demo.creatio.com//core/833b4f304a5bec8e97a1a4a7b05d65a8/ng-core/src/scripts',
+		'ng-polyfills': 'https://01195748-5-demo.creatio.com//core/52c978036c792f9ae9a2ba25af874383/ng-core/src/polyfills',
+		'ng-polyfill-webcomp': 'https://01195748-5-demo.creatio.com//core/a171567e70d44fedd8f69fd14b6f6f10/ng-core/src/polyfill-webcomp',
+		'numeral': 'https://01195748-5-demo.creatio.com//core/b3ac42fc2efdd8256803f41aab702110/Numeral/numeral.min',
+		'@creatio-devkit/common': 'https://01195748-5-demo.creatio.com//core/6f6916b7f48b8051c4d0d6b50f026ef1/creatio-devkit-common/creatio-devkit-common.umd',
+		'@creatio/sdk': 'https://01195748-5-demo.creatio.com//core/101048a45b8a2e3651a31d3d17489d62/creatio-devkit-common/creatio-sdk.umd'
+	},
+	'shim': {
+		'chartjs-label': {
+			'deps': [
+				'chartjs'
+			]
+		},
+		'chartjs-defaults': {
+			'deps': [
+				'chartjs-label'
+			]
+		},
+		'chartjs-funnel': {
+			'deps': [
+				'chartjs'
+			]
+		},
+		'chartjs-gauge': {
+			'deps': [
+				'chartjs'
+			]
+		},
+		'user-agent': {
+			'deps': [
+				'user-agent-parser'
+			]
+		},
+		'ng-core': {
+			'deps': [
+				'ng-scripts'
+			]
+		},
+		'ng-scripts': {
+			'deps': [
+				'ng-polyfills',
+				'ng-polyfill-webcomp'
+			]
+		},
+		'process-designer-component': {
+			'deps': [
+				'ng-core'
+			]
+		},
+		'voice-to-text-component': {
+			'deps': [
+				'ng-core'
+			]
+		}
+	}
+});
+require(['loadbootstrap'], function() {});
+</script>
+<script type="text/javascript">
+console.warn('Creatio Debug mode is OFF. To switch ON use following code');
+console.log('Terrasoft.SysSettings.postPersonalSysSettingsValue("IsDebug", true)');
+Terrasoft.isDebug = false;</script>
+<script type="text/javascript">
+Terrasoft.DataValueTypeRange = {INTEGER: {maxValue:2147483647,minValue:-2147483648},FLOAT: {maxValue:79228162514264337593543950335,minValue:-79228162514264337593543950335},DATE_TIME: {maxValue:"9999-12-31T23:59:59.999",minValue:"0001-01-01T00:00:00.000"}};</script>
+<script type="text/javascript">
+Terrasoft.isSspInReadonlyMode = false;
+</script>
+<script type="text/javascript">
+let authErrorExceptions = Terrasoft.AuthErrorExceptions = {};
+authErrorExceptions[4] = 'Access denied. Contact your system administrator';
+authErrorExceptions[5] = 'Your password has expired. Re-set your password';
+authErrorExceptions[10] = 'Time zone is invalid.';
+authErrorExceptions[0] = 'Authorization failed';</script>
+</head>
+<body>
+	<div class="font-preload">
+		<span class="font-preload-open-sans">_</span>
+		<span class="font-preload-open-sans-light">_</span>
+		<span class="font-preload-open-sans-bold">_</span>
+	</div>
+	<form name="IndexForm" method="post" action="./NuiLogin.aspx?ReturnUrl=%2f0%2fodata%2fContact%3f%24top%3d1&amp;%24top=1" id="IndexForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="2RH3H8Tahq6c15RdbLbPepXU4GGmNOPGoQIt8UXNjmY3IzZ/DnkNy17wAiifLUBbdC1+ioi2qc8EjoB3IpC4F6upAIWH4G8Xuh2wJ0CsKoJQWRgT" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0BFA92C5" />
+	</form>
+</body>
+</html>
