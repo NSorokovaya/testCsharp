@@ -17,8 +17,9 @@ namespace ContactApiConsoleApp
 
             static async Task Main(string[] args)
             {
-                  Program program = new Program();
 
+                  Program program = new Program();
+                  program.TryLogin();
                   try
                   {
                         // Program program = new Program();
@@ -31,7 +32,7 @@ namespace ContactApiConsoleApp
                   {
                         Console.WriteLine("Error: " + ex.Message);
                   }
-                  await program.TryLogin();
+                  // await program.TryLogin();
             }
 
 

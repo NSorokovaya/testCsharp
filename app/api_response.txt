@@ -93,7 +93,7 @@ Terrasoft.BaseViewModulePath= "Nui/ViewModule.aspx";
 <script type="text/javascript" src="https://01195748-5-demo.creatio.com//core/db7fe0930e6258f01fb73405039cc9a5/normalize/classList-shim.js"></script>
 <script type="text/javascript" src="https://01195748-5-demo.creatio.com//core/a2de79ad7a40d8fc81723c5ec4924f64/normalize/pathSeg-polyfill.js"></script>
 <script type="text/javascript">
-Terrasoft.configurationContentHash = "02e49d571d32428699c747d8b103a6a6";
+Terrasoft.configurationContentHash = "b5d520db69dc43198c21cb333134b606";
 Terrasoft.fileContentDescriptorsFileExists = true;
 Terrasoft.fileContentBootstrapsFileExists = true;
 Terrasoft.currentUserCultureName = "en-US";
@@ -214,7 +214,7 @@ authErrorExceptions[0] = 'Authorization failed';</script>
 		<span class="font-preload-open-sans-bold">_</span>
 	</div>
 	<form name="IndexForm" method="post" action="./NuiLogin.aspx?ReturnUrl=%2f0%2fodata%2fContact%3f%24top%3d1&amp;%24top=1" id="IndexForm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="1zILBHu8Wqe207lP2cRKOYrPur7mPnL+q0W1hwnmBlK9wfq9WvFGHRHTtqHymux2s9a+jZMcRwwHYy1kSWtDzq/Re8JzfsYuzTQvCz513dNhn3rh" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="N9bfZ+PoRfdEErvmwX1KZl75MvkHSIoKynOOjqfelMejKFQ2tC8BpcAXHgP7eUVT6JMpZIE0a5y9YmhgCF81Ok8Xhf2PmuX4y2W2ntua2cP4h4sA" />
 
 <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0BFA92C5" />
 	</form>
